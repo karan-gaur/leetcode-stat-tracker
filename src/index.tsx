@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useCallback, useEffect, useState } from "react";
 import Calendar, { type Props as ActivityCalendarProps, Skeleton } from "react-activity-calendar";
 import { DEFAULT_THEME } from './constants';

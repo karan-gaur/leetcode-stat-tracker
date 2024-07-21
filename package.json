@@ -1,6 +1,6 @@
 {
   "name": "leetcode-stats",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "type": "module",
   "description": "React component to share your leetcode contributions using a calendar",
   "main": "build/index.js",
