@@ -8,12 +8,13 @@
     "build": "rollup -c rollup.config.mjs",
     "prepublishOnly": "npm run build"
   },
+  "homepage": "https://github.com/karan-gaur/leetcode-stats.git",
   "keywords": [
-    "react",
-    "component",
     "leetcode",
     "leetcode calendar",
-    "leetcode stats"
+    "leetcode stats",
+    "leetcode tracker",
+    "leetcode progress"
   ],
   "author": "Karan Gaur <karan.gopal.gaur@gmail.com>",
   "license": "MIT",

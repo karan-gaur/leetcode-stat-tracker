@@ -3,14 +3,15 @@
       "target": "ES5",
       "module": "ESNext",
       "lib": ["dom", "es2017"],
-      "jsx": "react",
+      "jsx": "react-jsx",
       "declaration": true,
       "outDir": "./build",
       "strict": true,
       "esModuleInterop": true,
       "skipLibCheck": true,
       "moduleResolution": "node",
-      "forceConsistentCasingInFileNames": true
+      "forceConsistentCasingInFileNames": true,
+      "typeRoots": ["node_modules/@types"],
     },
     "include": ["src"]
   }
