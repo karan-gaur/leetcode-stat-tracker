@@ -2,7 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
 LeetCode Stats is a React-based web application that helps you keep track of your LeetCode problem-solving progress with rich visualizations and detailed statistics.
 
 ## Table of Contents
@@ -11,7 +10,6 @@ LeetCode Stats is a React-based web application that helps you keep track of you
 - [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -43,11 +41,28 @@ To run the project locally, follow these steps:
    npm install
    ```
 
-3. **Start the EXAMPLE - development server**:
+## Example
+
+A react project using an example is already present on github. To use the example component follow the mentioned steps below:
+**NOTE:** Make sure that port 3000 is available to run the demo on your local machine
+
+1. **Clone the git reepository**:
+
+   ```bash
+   git clone https://github.com/karan-gaur/leetcode-stats.git
+   cd leetcode-stats
+   ```
+
+2. Install Necessary dependencies:
 
    ```bash
    cd example
    npm install
+   ```
+
+3. Start the server:
+
+   ```bash
    npm start
    ```
 

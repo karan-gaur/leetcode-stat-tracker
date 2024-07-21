@@ -11,3 +11,4 @@ example/src/react-app-env.d.ts
 .vscode/
 .idea/
 .DS_Store
+*storybook.log
