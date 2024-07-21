@@ -1,6 +1,7 @@
 # LeetCode Stats Tracker
 
-[![License](https://img.shields.io/github/license/karan-gaur/leetcode-stats)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 LeetCode Stats is a React-based web application that helps you keep track of your LeetCode problem-solving progress with rich visualizations and detailed statistics.
 
