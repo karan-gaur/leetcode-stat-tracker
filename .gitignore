@@ -12,3 +12,5 @@ example/src/react-app-env.d.ts
 .idea/
 .DS_Store
 *storybook.log
+
+*workspace
