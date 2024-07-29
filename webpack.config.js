@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: '/home/kgg/Desktop/self/temp/leetcode-stats/src/index.ts',
+  entry: path.resolve(__dirname, 'src', 'index.ts'),
   mode: process.env.NODE_ENV || 'production',
   output: {
     path: path.resolve(__dirname, 'dist'),
