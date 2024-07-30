@@ -1,3 +1,1 @@
-import LeetcodeCalendar from "./components/LeetcodeCalendar";
-
-export default LeetcodeCalendar;
+export { default as LeetcodeCalendar, type Props } from "./components/LeetcodeCalendar";

@@ -1,0 +1,27 @@
+{
+  "name": "leetcode-stats-example",
+  "homepage": "https://github.com/karan-gaur/leetcode-stats/",
+  "version": "2.0.5",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "leetcode-stats": "^2.0.6",
+    "react-error-boundary": "^4.0.13",
+    "react-github-btn": "^1.4.0",
+    "react-router-dom": "^6.23.1",
+    "react-syntax-highlighter": "^15.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.13",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "@vitejs/plugin-react": "^4.3.0",
+    "sass": "^1.77.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.12"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "leetcode-stats",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
-  "homepage": "https://github.com/karan-gaur/leetcode-stats.git",
+  "homepage": "https://github.com/karan-gaur/leetcode-stats/",
   "keywords": [
     "leetcode",
     "leetcode calendar",
