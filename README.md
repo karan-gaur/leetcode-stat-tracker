@@ -4,6 +4,8 @@
 
 LeetCode Stats is a React-based web application that helps you keep track of your LeetCode problem-solving progress with rich visualizations and detailed statistics.
 
+![alt text](assets/image.png)
+
 ## Table of Contents
 
 - [Features](#features)
@@ -22,7 +24,7 @@ LeetCode Stats is a React-based web application that helps you keep track of you
 
 ## Demo
 
-Check out the live demo [here](https://your-live-demo-url.com).
+Check out the live demo [here](https://karan-gaur.github.io/leetcode-stats/).
 
 ## Installation
 
@@ -66,7 +68,7 @@ A react project using an example is already present on github. To use the exampl
    npm start
    ```
 
-   The app will be available at `http://localhost:3000`.
+   The app will be available at `http://localhost:8080`.
 
 ## Usage
 
