@@ -1,24 +1,24 @@
-name: Deploy Example Directory to GitHub Pages
+name: Deploy Vite App to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Replace with your branch name if different
+      - main 
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+    - name: Checkout the repository
+      uses: actions/checkout@v3
 
     - name: Set up Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
-        node-version: '16'  # Specify your Node.js version
+        node-version: '20' 
 
-    - name: Navigate to example directory and install dependencies
+    - name: Install dependencies and build
       run: |
         cd example
         npm install
