@@ -1,12 +1,12 @@
 {
   "name": "leetcode-stats",
-  "version": "2.0.2",
+  "version": "2.0.7",
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "tsc && webpack"
   },
   "homepage": "https://github.com/karan-gaur/leetcode-stats/",
   "keywords": [
