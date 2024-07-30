@@ -4,7 +4,7 @@
 
 LeetCode Stats is a React-based web application that helps you keep track of your LeetCode problem-solving progress with rich visualizations and detailed statistics.
 
-![alt text](assets/image.png)
+![alt text](https://raw.githubusercontent.com/karan-gaur/leetcode-stats/main/assets/image.png)
 
 ## Table of Contents
 
