@@ -1,4 +1,5 @@
 const path = require('path');
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
   entry: path.resolve(__dirname, 'src', 'index.tsx'),
@@ -36,5 +37,19 @@ module.exports = {
   externals: {
     react: 'react',
     'react-dom': 'react-dom',
+  },
+  optimization: {
+    minimize: true,
+    minimizer: [new TerserPlugin({
+      terserOptions: {
+        compress: {
+          drop_console: true, // Optionally drop console statements
+        },
+        output: {
+          comments: false, // Remove comments
+        },
+      },
+      extractComments: false, // Do not extract comments to a separate file
+    })],
   },
 };

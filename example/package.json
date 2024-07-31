@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "leetcode-stats": "^2.0.8",
+    "leetcode-stats": "^2.0.10",
     "react-error-boundary": "^4.0.13",
     "react-github-btn": "^1.4.0",
     "react-router-dom": "^6.23.1",
